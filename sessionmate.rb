@@ -1,8 +1,8 @@
 class Sessionmate < Formula
   desc "Session replay for Flutter to help find and fix bugs in production faster"
   homepage "https://sessionmate.dev/"
-  url "https://github.com/FilledStacks/session_mate/releases/download/v.0.2.0/sessionmate.tar.gz"
-  sha256 "eaa610cbd040bd3f18b6a0540d0c4827acefd7d23c2d3f2a4a037dc01ab0b43b"
+  url "https://github.com/FilledStacks/session_mate/releases/download/v0.3.0/sessionmate.tar.gz"
+  sha256 "49017134f4136be7dd9e36044d31aec0f335b8c7945cdea1b726a5a4c702f607"
   license "MIT"
 
   def install
