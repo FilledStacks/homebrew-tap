@@ -5,13 +5,13 @@ class Sessionmate < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/FilledStacks/session_mate_cli/releases/download/untagged-53237f7b0858952baddb/sessionmate_macos_x86_64.tar.gz"
-      sha256 "d03b14e0fb780221cc24702e8832d9535ddd52da3c06bf971193ca4b74e51048"
+      url "https://github.com/FilledStacks/session_mate_cli/releases/download/v0.3.0%2B3/sessionmate_macos_x86_64.tar.gz"
+      sha256 "ed396805a9be074da23253907405b654bc6eb6c574bdb03f8f185b1f7c7d561e"
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/FilledStacks/session_mate_cli/releases/download/untagged-53237f7b0858952baddb/sessionmate_macos_arm64.tar.gz"
-      sha256 "fcab8361451502679615af9d76b269ddad186b0c7b6a198eea038a4865a35df7"
+      url "https://github.com/FilledStacks/session_mate_cli/releases/download/v0.3.0%2B3/sessionmate_macos_arm64.tar.gz"
+      sha256 "763726ded7b2ddff2604c436cdc3547aa3a392ba705f0b379ba521edeff85e9b"
     end
   end
 
