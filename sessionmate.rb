@@ -1,19 +1,19 @@
 class Sessionmate < Formula
   desc "Session replay for Flutter to help find and fix bugs in production faster"
   homepage "https://sessionmate.dev/"
-  version "0.6.2"
+  version "0.6.3"
   version_scheme 1
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/FilledStacks/session_mate_cli/releases/download/v0.6.2/sessionmate_macos_x86_64.tar.gz"
-      sha256 "24834eef33b1ef0b5491f635d167f6dbe17f52bd540636a7339a247ce7564917"
+      url "https://github.com/FilledStacks/session_mate_cli/releases/download/v0.6.3/sessionmate_macos_x86_64.tar.gz"
+      sha256 "63c62c753c563a6367646d32fb56de2bfe991ea471a14408a7d99733cc1bc9f9"
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/FilledStacks/session_mate_cli/releases/download/v0.6.2/sessionmate_macos_arm64.tar.gz"
-      sha256 "c203684543a17474172d3116ef71b722ea597099deb718e5ea39d00a61965d81"
+      url "https://github.com/FilledStacks/session_mate_cli/releases/download/v0.6.3/sessionmate_macos_arm64.tar.gz"
+      sha256 "9fba62b5ca9bf4af3529436898645c1c1566a7ebbaf082a8d3151c60720805ca"
     end
   end
 
