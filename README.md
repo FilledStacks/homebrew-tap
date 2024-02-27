@@ -10,6 +10,12 @@ brew tap filledstacks/tap
 
 Then install the package. 
 
+### TestSweets
+
+```shell
+brew install testsweets
+```
+
 ### SessionMate
 
 ```shell
