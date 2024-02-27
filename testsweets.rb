@@ -7,13 +7,13 @@ class Testsweets < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://firebasestorage.googleapis.com/v0/b/testsweets-38348.appspot.com/o/testsweets-dist.tar.gz?alt=media&token=80a8e299-3bfe-4445-b50f-cd202e7eeb4a"
-      sha256 "846eaa6022be7ffd20370446f30c3825fafeb644a6507ac620d867ed180d8a87"
+      url "https://firebasestorage.googleapis.com/v0/b/testsweets-38348.appspot.com/o/testsweets-dist.tar.gz?alt=media&token=97ca7490-90ff-44b9-a1ab-c6b553b45ed5"
+      sha256 "39c01adf24d933037a377f3e65762e78d117133840dacf2976a5d88e4069c19b"
     end
 
     if Hardware::CPU.arm?
-      url "https://firebasestorage.googleapis.com/v0/b/testsweets-38348.appspot.com/o/testsweets-dist.tar.gz?alt=media&token=80a8e299-3bfe-4445-b50f-cd202e7eeb4a"
-      sha256 "846eaa6022be7ffd20370446f30c3825fafeb644a6507ac620d867ed180d8a87"
+      url "https://firebasestorage.googleapis.com/v0/b/testsweets-38348.appspot.com/o/testsweets-dist.tar.gz?alt=media&token=97ca7490-90ff-44b9-a1ab-c6b553b45ed5"
+      sha256 "39c01adf24d933037a377f3e65762e78d117133840dacf2976a5d88e4069c19b"
     end
   end
 
