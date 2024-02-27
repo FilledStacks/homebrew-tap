@@ -1,4 +1,4 @@
-class Sessionmate < Formula
+class Testsweets < Formula
   desc "The easiest way to write automated end-to-end tests for Flutter apps"
   homepage "https://testsweets.com"
   version "1.0.0"
