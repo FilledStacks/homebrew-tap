@@ -12,8 +12,8 @@ class Testsweets < Formula
     end
 
     if Hardware::CPU.arm?
-      url "https://firebasestorage.googleapis.com/v0/b/testsweets-38348.appspot.com/o/testsweets-dist.tar.gz?alt=media&token=c44d53b1-6cdc-4c6f-8175-c61769b0a39a"
-      sha256 "4b84235fcbd08d90c729562650cefa0df7a19dccbc6d0181366cd077e41b4899"
+      url "https://firebasestorage.googleapis.com/v0/b/testsweets-38348.appspot.com/o/testsweets-dist.tar.gz?alt=media&token=09fef558-2256-489f-9917-4c4c8fc508cd"
+      sha256 "960a99e2e2dd904de65192d16e234378863aaf641587d9ac224fd3bbbe3db7cb"
     end
   end
 
