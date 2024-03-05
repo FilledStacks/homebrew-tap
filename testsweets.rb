@@ -1,14 +1,14 @@
 class Testsweets < Formula
   desc "The easiest way to write automated end-to-end tests for Flutter apps"
   homepage "https://testsweets.com"
-  version "1.0.4"
+  version "1.0.5"
   version_scheme 1
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://firebasestorage.googleapis.com/v0/b/testsweets-38348.appspot.com/o/testsweets-intel.tar.gz?alt=media&token=576c38c6-1f0f-4061-8d97-930fa11bbeb9"
-      sha256 "9f75097d2a34a34534031248000cd7b15579fa08a79e9e157c109eaa25677518"
+      url "https://firebasestorage.googleapis.com/v0/b/testsweets-38348.appspot.com/o/testsweets-intel.tar.gz?alt=media&token=df133ab0-855d-489e-8198-90ee82c319c0"
+      sha256 "39ea5ba10067abd0ff3be1c387dd860559d004b165e941b51c257628e43521b3"
     end
 
     if Hardware::CPU.arm?
